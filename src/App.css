@@ -1,0 +1,95 @@
+body {
+  background: url(./Componenets/Imgs/food.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #535353
+}
+
+.card-bg {
+  /* background: rgb(92, 184, 92); */
+  /* opacity: 1;  */
+  background: #e6e4e4;
+}
+.card-info{
+  min-height: 28.25rem;
+}
+.card-header-bg {
+
+  background: #d1d0d0
+}
+.border-success-dark {
+  background-color: rgb(32, 99, 32)
+}
+
+.vertical-center {
+  height:100%;
+  width:100%;
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+  z-index: -1;
+}
+
+.info {
+  position: absolute;
+  left: 55px;
+  font-size: 0.65rem;
+  opacity: 0;
+  transition: all 0.3s
+}
+
+.gender-text {
+  top: 56px;
+}
+
+.age-text {
+  top: 106px;
+  }
+/* 
+#age:focus + .age-text {
+  opacity: 1;
+} */
+
+.weight-text {
+  top: 158px;
+}
+/* 
+#weight:focus + .weight-text {
+  opacity: 1;
+} */
+
+.height-text {
+  top: 210px;
+}
+/* 
+#height:focus + .height-text {
+  opacity: 1;
+} */
+
+.activity-text {
+ top: 260px;
+}
+
+.goal-text {
+  top: 307px;
+}
+
+.meals-text {
+  top: 355px;
+}
+
+.visible {
+  opacity: 1;
+}
+
+input, select {
+  border: none;
+  border-bottom: 1px solid #ffc185;
+  background: #e6e4e4;
+  width: 80%
+}
+
